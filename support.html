@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technical Support for Rampage Bee - Get help with app issues, troubleshooting, and more.">
+    <title>Support - Rampage Bee</title>
+    <style>
+        /* 基础样式：保证可读性和适配性 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #2d3748;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 25px 15px;
+            background-color: #f8fafc;
+        }
+        /* 头部样式 */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .app-logo {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+        .app-tagline {
+            font-size: 1.1rem;
+            color: #64748b;
+        }
+        /* 板块样式 */
+        .section {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .section h2 {
+            font-size: 1.5rem;
+            color: #1e3a8a;
+            margin-bottom: 18px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        /* FAQ 样式 */
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 8px;
+            cursor: pointer; /* 若后续需加折叠功能可保留 */
+        }
+        .faq-answer {
+            color: #475569;
+            padding-left: 5px;
+        }
+        /* 联系按钮样式 */
+        .contact-btn {
+            display: inline-block;
+            background-color: #1e40af;
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .contact-btn:hover {
+            background-color: #1e3a8a;
+        }
+        /* 表单样式（问题提交） */
+        .support-form {
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #1e3a8a;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 1rem;
+            color: #2d3748;
+        }
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        .submit-btn {
+            background-color: #1e40af;
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #1e3a8a;
+        }
+        /* 底部样式 */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #1e40af;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部：App 名称与标语 -->
+    <header>
+        <div class="app-logo">Rampage Bee Support</div>
+        <p class="app-tagline">Get help with your Rampage Bee app experience</p>
+    </header>
+
+    <!-- 1. 快速帮助：常见问题（FAQ） -->
+    <section class="section">
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">1. Why won't Rampage Bee open on my iPhone/iPad?</div>
+            <div class="faq-answer">
+                Try these steps first: <br>
+                - Close the app completely (swipe up from the bottom of the screen and hold, then swipe the app away). <br>
+                - Restart your device. <br>
+                - Ensure your device is running iOS 14.0 or later (check in Settings > General > Software Update). <br>
+                If the issue persists, contact our support team with your device model and iOS version.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">2. How do I update Rampage Bee to the latest version?</div>
+            <div class="faq-answer">
+                Open the App Store app on your device, tap your profile icon in the top-right corner, scroll down to "Available Updates," and look for "Rampage Bee." Tap "Update" to install the latest version. If no update is listed, you already have the newest release.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">3. Does Rampage Bee require an internet connection?</div>
+            <div class="faq-answer">
+                No—Rampage Bee works completely offline. All features (including gameplay, settings, and progress) operate locally on your device, so no internet connection is needed to use the app.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">4. How do I restore my game progress in Rampage Bee?</div>
+            <div class="faq-answer">
+                Since Rampage Bee does not collect or store user data (including progress) on external servers, progress is saved locally on your device. If you switch devices or reset your current device, progress cannot be transferred. We recommend avoiding device resets if you want to keep your progress.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">5. Is Rampage Bee compatible with my device?</div>
+            <div class="faq-answer">
+                Rampage Bee supports iPhones running iOS 14.0 or later, and iPads running iPadOS 14.0 or later. To check your device's compatibility, go to Settings > General > About (device model) and Settings > General > Software Update (OS version).
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. 联系支持：邮件与表单 -->
+    <section class="section">
+        <h2>Contact Technical Support</h2>
+        <p>Need more help? Reach out to our team—we respond to most inquiries within 24-48 business hours (Monday-Friday, 9 AM-5 PM PT).</p>
+        
+        <!-- 邮件联系按钮 -->
+        <a href="mailto:support@rampagebee.com?subject=Rampage Bee Support Request" class="contact-btn">
+            Email Support Directly
+        </a>
+
+        <!-- 问题提交表单（可选：若需用户提交详细信息） -->
+        <div class="support-form">
+            <h3 style="margin: 25px 0 15px; color: #1e3a8a;">Submit a Support Request</h3>
+            <form action="mailto:support@rampagebee.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Your Full Name</label>
+                    <input type="text" id="name" name="Name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email Address</label>
+                    <input type="email" id="email" name="Email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="device">Device Model (e.g., iPhone 15, iPad Pro 12.9")</label>
+                    <input type="text" id="device" name="Device Model" required placeholder="iPhone 15 Pro">
+                </div>
+                <div class="form-group">
+                    <label for="ios-version">iOS/iPadOS Version (e.g., iOS 17.1)</label>
+                    <input type="text" id="ios-version" name="OS Version" required placeholder="iOS 17.2.1">
+                </div>
+                <div class="form-group">
+                    <label for="issue">Describe Your Issue (in detail)</label>
+                    <textarea id="issue" name="Issue Description" required placeholder="e.g., The app crashes when I tap the 'Start Game' button. I've already tried restarting my device..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Request</button>
+            </form>
+            <p style="margin-top: 10px; font-size: 0.9rem; color: #64748b;">
+                Note: This form will open your default email app to send the request. If you prefer, you can also email us directly at support@rampagebee.com.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. 其他资源：更新日志与隐私政策 -->
+    <section class="section">
+        <h2>Additional Resources</h2>
+        <ul style="list-style-type: disc; padding-left: 20px; color: #475569;">
+            <li>
+                <a href="https://yuliangc9.github.io/bee2/privacy.html" target="_blank" style="color: #1e40af; text-decoration: none;">
+                    Privacy Policy
+                </a> 
+                – Learn how we protect your privacy (Rampage Bee collects no user data).
+            </li>
+            <li>
+                <a href="[Your App Store Link]" target="_blank" style="color: #1e40af; text-decoration: none;">
+                    App Store Page
+                </a> 
+                – Check for updates, reviews, and app details.
+            </li>
+            <li>
+                <a href="[Your Release Notes URL]" target="_blank" style="color: #1e40af; text-decoration: none;">
+                    Release Notes
+                </a> 
+                – See what’s new in the latest version of Rampage Bee.
+            </li>
+        </ul>
+    </section>
+
+    <!-- 底部：版权与链接 -->
+    <footer>
+        <p>&copy; 2025 ChenYuliang – Developer of Rampage Bee</p>
+        <div class="footer-links">
+            <a href="https://yuliangc9.github.io/bee2/privacy.html">Privacy Policy</a>
+            <a href="mailto:yuliangc9@gmail.com">Support</a>
+        </div>
+    </footer>
+
+    <!-- 可选：简单JS实现FAQ折叠功能（提升移动端体验） -->
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                // 切换答案显示/隐藏
+                answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+                // 初始加载时默认隐藏答案（可选）
+                if (answer.style.display === '') answer.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
